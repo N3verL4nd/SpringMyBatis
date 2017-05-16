@@ -4,8 +4,8 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
-    <mappers>
+   <!-- <mappers>
         <mapper resource="com/xiya/entity/PersonMapper.xml"/>
-    </mappers>
+    </mappers>-->
 
 </configuration>
