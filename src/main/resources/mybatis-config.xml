@@ -4,6 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
+   <!-- mapper加载转移到Spring配置文件中，所以mybatis配置文件也是可以省略的 -->
    <!-- <mappers>
         <mapper resource="com/xiya/entity/PersonMapper.xml"/>
     </mappers>-->

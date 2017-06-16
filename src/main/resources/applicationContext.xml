@@ -29,4 +29,10 @@
         <property name="mapperInterface" value="com.xiya.dao.PersonMapper"/>
     </bean>
 
+    <!--批量扫描-->
+    <!--<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.xiya.dao"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>-->
+
 </beans>
